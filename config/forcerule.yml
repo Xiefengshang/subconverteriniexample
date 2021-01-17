@@ -35,6 +35,11 @@ dns:
   ipv6: false
   enhanced-mode: fake-ip
   nameserver:
+    - tls://nmdns.trli.club
+    - tls://chaoge.cool
+    - tls://sh.chaoge.cool
+    - tls://bj.chaoge.cool
+    - tls://gz.chaoge.cool
     - 119.29.29.29
     - 223.5.5.5
     - 114.114.114.114
@@ -42,6 +47,11 @@ dns:
     - 117.50.10.10
     - tls://dns.rubyfish.cn:853
   fallback:
+    - tls://nmdns.trli.club
+    - tls://chaoge.cool
+    - tls://sh.chaoge.cool
+    - tls://bj.chaoge.cool
+    - tls://gz.chaoge.cool
     - tls://dns.rubyfish.cn:853
     - tls://1.0.0.1:853
     - tls://dns.google:853
